@@ -1,6 +1,7 @@
-import 'package:counter_me/menu.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'loading_animation.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized().addPostFrameCallback((timeStamp) {
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
-      home: const Menu(),
+      home: const LoadingAnimation(),
     );
   }
 }

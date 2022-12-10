@@ -1,5 +1,5 @@
 import 'package:counter_me/home.dart';
-import 'package:counter_me/widget/loading_scaffold.dart';
+import 'package:counter_me/module/home/widget/loading_scaffold.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:lottie/lottie.dart';
